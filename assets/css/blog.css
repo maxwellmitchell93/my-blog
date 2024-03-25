@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    border-bottom: 5px solid #32c164;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+body{
+    background-color: white;
+    color: black;
+}
+.dark-mode{
+    background-color: black;
+    color:white;
+} 
+.darkbtn{
+    position: absolute;
+    right: 50px;
+    padding-top: 30px;
+}
+
+.title{
+    border-bottom: 2px solid;
+    padding-left:5px;
+}
+.content{
+    padding-left: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+.post{
+    padding-left: 5px;
+}
+.box1 {
+    border-style: solid;
+    margin: 15px;
+    border-radius: .5%;
+    padding-top: 10px;
+}
+.box2{
+    margin: 15px;
+    border-style: solid;
+    border-radius: .5%;
+    padding-top: 10px;
+}
+.box3{
+    margin: 15px;
+    border-style:solid;
+    border-radius: .5%;
+    padding-top: 10px;
+}
+.box4{
+    margin:15px;
+    border-style: solid;
+    border-radius: .5%;
+    padding-top: 10px;
+}
+.footer {
+    border-top: 5px solid#32c164 ;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top:20px;
+}
+
+.link {
+    text-align: center;
+
+}

@@ -1,0 +1,33 @@
+header{
+    position: absolute;
+    right: 50px;
+    height: 620px;
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+    font-size: 20px;
+    background-color: white;
+    color:black;
+}
+.dark-mode{
+    background-color: black;
+    color:white;
+}
+body h2 {
+    font-family: "Rubik Scribble", system-ui;
+}
+
+form{
+    border: 5px solid #32c164;
+    border-radius: 10px;
+    padding: 10px;
+}
+.submit{
+    padding-left: 135px;
+    padding-top: 10px;
+}
+
