@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,8 +13,8 @@
 </header>
 <body>
     
-
-    <form>
+<!-- <form id="form"> -->
+    <form action="./blog.html" method="GET">
         <h2>What's on your mind?</h2>
         <label for="user-name">Username</label>
         <br>
@@ -27,12 +28,15 @@
         <br>
         <textarea name="content" id="content" required></textarea>
         <br>
-        <div class ="submit">
-        <button id="submit">Submit</button>
+        <!-- <div class ="submit">
+        <button id="submit">Submit</button> -->
+        <input type="submit" id="submitbtn" value="submit"/>
     </div>
     </form>
 
+    <script src="./assets/js/logic.js"></script>
     <script src="./assets/js/form.js"></script>
+
 </body>
 
 
